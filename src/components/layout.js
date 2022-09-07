@@ -25,11 +25,20 @@ const Layout = ({ location, title, children }) => {
       <header className="global-header">{header}</header>
       <main>{children}</main>
       <footer>
-        © {new Date().getFullYear()}, Built with
+        © 2022 - {new Date().getFullYear()}, Built with
         {` `}
         <a href="https://www.gatsbyjs.com">Gatsby</a>
       </footer>
     </div>
+
+    //   <iframe
+    //   src="https://surajverma.substack.com/embed"
+    //   width="480"
+    //   height="320"
+    //   style="border:1px solid #EEE; background:white;"
+    //   frameborder="0"
+    //   scrolling="no"
+    // ></iframe>
   )
 }
 
